@@ -1,4 +1,4 @@
-# IQI Calibration Software —— Inphomatool
+# Inphomatool —— A Calibration Scheme
 
 This repository is a document describing the IQI software for confocal Non-Line-of-Sight (NLOS) calibration, which we call Inphomatool.
 
@@ -9,7 +9,7 @@ Inphomatool is based on MATLAB and LabVIEW, and the MATLAB appdesigner is requir
 
 Inphomatool can calibrate the confocal NLOS system with Single Photon Avalanche Diode (SPAD), laser, galvanometer and other components.
 
-## ```Pipeline```
+## ```How to run```
 Inphomatool has 4 modules, including Calibration, Measurements, Enhancements and Reconstruction. You should calibrate the system first, then measure and enhance data, and reconstruct with enhanced data.
 
 **Before using Inphomatool, please make sure the connection between computer and the system components such as Laser, SPAD, galvo, delayer and so on, and then set ```global parameters```. All parameters should be in SI units. For example, if the repetition rate of laser is 40 MHz, set repetition rate as $4\times10^{7}$, and if the time bin of TCSPC is 4 ps, set time bin value as $4\times10^{-12}$**.
