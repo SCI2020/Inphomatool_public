@@ -22,3 +22,13 @@ The Enhancement moduld will enhance the measured transients. Please set the ```l
 The deGamma and denoise function are introduced in paper “Onsite Non-line-of-sight Imaging via Online Calibration”. We have prepared two data storage formats. If you want to reconstruct with our reconstruction module, please select the traditional one. For confocal data, Do **Not** select One shot mode. The enhanced data will be save as '```enhance path```/enhance_data.mat'.
 
 The reconstruction module integrates the light-cone transform (LCT), f-k migration (fk) and phasor-field (PF) method to reconstruct the NLOS scene with the enhanced data. Please set the ```Code path``` as the absolute path of folder of 'Inphomatool/Package/recon/util', and the ```data path``` as the absolute path of folder of enhanced data, which should be under 'Inphomatool/resources/enhance/'
+
+## ```Folder Name Explanation```
+|Folder name| Explanation|
+|:---:|:---:|
+|Package|MATLAB source codes|
+|VI|LabVIEW source codes|
+|resources|folder for parameters & data|
+|input|input voltages|
+|output|output raw data|
+|supplymentary|supplymentary document and data|
